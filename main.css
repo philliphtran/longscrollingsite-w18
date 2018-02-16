@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+/* font-family: 'Oswald', sans-serif; */
+
+
+body {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 900;
+  /* background: linear-gradient(red, yellow); */
+  /* background-image: url(img/backwave.png), repeat-x; */
+  /* background: url("img/frontwave.png") repeat-x left 355px, url("img/backwave.png") repeat-x left 245px, linear-gradient(to bottom, #e5c62d  100px ,#7db9e8 300px,#6ebdc4 300px,#207cca 400px,#207cca 101%); */
+
+  background: url("img/frontwave.png") repeat-x left 270px,
+  /* url("img/imonaship.png") no-repeat 200px 120px, */
+  url("img/backwave.png") repeat-x left 230px,
+  url("img/imonaship.png") no-repeat 150px 85px,
+  linear-gradient(to bottom, #edd7a6 100px,#d6c298 300px,#acdfe8 300px, #2989d8 14%, #5b738c 57%, #2d4754 85%);
+}
+
+
+#counter {
+  border: 1px solid red;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  margin: 0;
+  padding: 10px;
+  width: 200px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+#canvas {
+  border: 1px solid blue;
+  position: relative;
+  margin: 0 auto;
+  width: 800px;
+  height: 10000px;
+
+}
