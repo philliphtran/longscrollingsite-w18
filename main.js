@@ -106,5 +106,7 @@ var  y  = window.pageYOffset;
     console.log("else");
     console.log("y > 8000");
     counter.style.backgroundColor = "green";
+    a.innerHTML ="<h1> The End </h1>";
+    a.style.backgroundColor = "white";
   }
 }
