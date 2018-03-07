@@ -10,7 +10,7 @@ var b = document.getElementById('b');
 var c = document.getElementById('c');
 
 
-counter.innerHTML = "Sinning";
+counter.innerHTML = "Do you Sin?";
 
 //pseudo code - when the user is scrolling update the variable fromTop and make decisions to change stuff on the page
 //window.onscroll is a boolean (yes/no)
@@ -53,7 +53,7 @@ var  y  = window.pageYOffset;
     // b.innerHTML ="<h1> 7 Deadly Sins </h1>";
     c.style.backgroundColor = "teal";
     // c.innerHTML ="<h1> </h1>";
-    counter.innerHTML = "Sinning";
+    counter.innerHTML = "Sinning is bad.";
     // pride.style.backgroundImage= "url()";
 
   }else if (y > 1000 && y < 2000) {
@@ -114,8 +114,8 @@ var  y  = window.pageYOffset;
     console.log("else");
     console.log("y > 8000");
     counter.style.backgroundColor = "green";
-    a.innerHTML ="<h2> The End </h2>";
+    a.innerHTML ="<h2> Created by Phillip Tran </h2>";
     a.style.backgroundColor = "white";
-    counter.innerHTML = "I am dead!";
+    counter.innerHTML = "Click  this    ---->";
   }
 }

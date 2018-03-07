@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
 /* font-family: 'Oswald', sans-serif; */
 
 h1 {
@@ -11,8 +11,8 @@ h1 {
 
 
 body {
-  font-family: 'Oswald', sans-serif;
-  font-weight: 900;
+  font-family: 'Special Elite', cursive;
+  font-weight: 500;
   /* background: linear-gradient(red, yellow); */
   /* background-image: url(img/backwave.png), repeat-x; */
   /* background: url("img/frontwave.png") repeat-x left 355px, url("img/backwave.png") repeat-x left 245px, linear-gradient(to bottom, #e5c62d  100px ,#7db9e8 300px,#6ebdc4 300px,#207cca 400px,#207cca 101%); */
@@ -77,7 +77,7 @@ body {
   height: 300px;
   line-height: 150px;
   text-align: center;
-  font-size: 3em;
+  font-size: 2em;
 }
 #canvas {
   /* border: 1px solid blue; */
