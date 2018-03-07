@@ -52,7 +52,7 @@ var  y  = window.pageYOffset;
     b.style.backgroundColor = "pink";
     // b.innerHTML ="<h1> 7 Deadly Sins </h1>";
     c.style.backgroundColor = "teal";
-    c.innerHTML ="<h1> 7 Deadly Sins </h1>";
+    // c.innerHTML ="<h1> </h1>";
     counter.innerHTML = "Sinning";
     // pride.style.backgroundImage= "url()";
 
