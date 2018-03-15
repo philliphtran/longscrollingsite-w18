@@ -14,7 +14,7 @@ var txt = "Phillip's Porfolio";
 var myWindow;
 
 function openWin() {
-    myWindow = window.open("index.html", "", "width=2560, height=1600");
+    myWindow = window.open("index.html", "", "width=1000, height=1000");
 }
 
 
