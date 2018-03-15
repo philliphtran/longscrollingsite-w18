@@ -27,49 +27,48 @@ font-family: 'Special Elite', cursive;
   url("img/bg.jpg") fixed center/cover no-repeat;
 
 
-
-  linear-gradient(to bottom, #edd7a6 100px,#d6c298 300px,#acdfe8 300px, #2989d8 14%, #5b738c 57%, #2d4754 85%);
+/*
+  linear-gradient(to bottom, #edd7a6 100px,#d6c298 300px,#acdfe8 300px, #2989d8 14%, #5b738c 57%, #2d4754 85%); */
 }
 /* Split the screen in half */
-.split {
+/* .split {
   height: 800px;
   width: 50%;
   position: fixed;
   z-index: 1;
   top: 0;
   overflow-x: hidden;
-  padding-top: 0 20px 20px 10px;
+  padding: 0 20px 20px 10px;
 
 
-}
+} */
 
 /* Control the left side */
-.left {
+/* .left {
   left: -7%;
-  /* background-color: rgba(255,255,255,0.5); */
-}
+  background-color: rgba(255,255,255,0.5); }
+
 
 /* Control the right side */
-.right {
+/* .right {
   right: -7%;
-  /* background-color: white;
-  opacity: 0.5; */
-}
+
+} */
 
 /* If you want the content centered horizontally and vertically */
-.centered {
+/* .centered {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-}
+} */
 
 /* Style the image inside the centered container, if needed */
-.centered img {
+/* .centered img {
   width: 500px;
   border-radius: 5%;
-}
+} */
 
 #counter {
   /* border: 1px solid red; */
@@ -100,7 +99,7 @@ font-family: 'Special Elite', cursive;
  width: 800px;
  height: 100px;
  margin: 0 auto;
- padding: 0 auto;
+ padding: 0;
  position: relative;
  text-align: center;
  line-height: 110px;
@@ -166,7 +165,7 @@ h4 {
 h5 {
   text-align: center;
   font-size: 1.1em;
-  padding: 5px auto;
+  padding: 5px;
   margin: 5px auto;
   line-height: 30px;
   font-family: 'Special Elite', cursive;
@@ -184,7 +183,7 @@ h6 {
 p {
   text-align: left;
   font-size: 1.0em;
-  padding: 1px auto;
+  padding: 1px;
   margin: 20px 20px;
   text-indent: 15px;
 
@@ -194,7 +193,7 @@ button {
   /* position: fixed; */
   position: absolute;
   left: 50px;
-  padding: 5px auto;
+  padding: 5px;
   margin: 5px auto;
   top: 10px;
 }
