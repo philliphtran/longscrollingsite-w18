@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Special+Elite');
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
 /* font-family: 'Oswald', sans-serif; */
 
 h1 {
@@ -6,13 +7,14 @@ h1 {
   left: 30%;
   text-align: center;
   font-size: 2em;
+  font-family: 'Special Elite', cursive;
 }
 
 
 
 body {
-  font-family: 'Special Elite', cursive;
-  font-weight: 500;
+font-family: 'Special Elite', cursive;
+  font-weight: 400;
   /* background: linear-gradient(red, yellow); */
   /* background-image: url(img/backwave.png), repeat-x; */
   /* background: url("img/frontwave.png") repeat-x left 355px, url("img/backwave.png") repeat-x left 245px, linear-gradient(to bottom, #e5c62d  100px ,#7db9e8 300px,#6ebdc4 300px,#207cca 400px,#207cca 101%); */
@@ -21,7 +23,9 @@ body {
   /* url("img/imonaship.png") no-repeat 200px 120px, */
   /*url("img/backwave.png") repeat-x left 230px, */
   /* url("img/imonaship.png") no-repeat 150px 85px, */
-  /* url(http://via.placeholder.com/400x300) no-repeat  310px 50px, */
+  /* url("img/geek.jpg") fixed center/cover no-repeat; */
+
+
 
   linear-gradient(to bottom, #edd7a6 100px,#d6c298 300px,#acdfe8 300px, #2989d8 14%, #5b738c 57%, #2d4754 85%);
 }
@@ -73,11 +77,13 @@ body {
   left: 39%;
   margin-top: 100px;
   padding-top: 20px;
+  padding-left: 5px;
   width: 200px;
   height: 300px;
-  line-height: 150px;
+  line-height: 100px;
   text-align: center;
   font-size: 2em;
+  /* border: 1px solid white; */
 }
 #canvas {
   /* border: 1px solid blue; */
@@ -88,13 +94,17 @@ body {
 
 }
 #a {
- border: 1px solid yellow;
- margin: 0;
- padding: 0;
+ /* border: 1px solid white; */
+ width: 800px;
+ height: 100px;
+ margin: 0 auto;
+ padding: 0 auto;
  position: relative;
-
+ text-align: center;
+ line-height: 110px;
 }
 #b {
+  /* border: 1px solid white; */
   display: block;
   position: absolute;
   width: 500px;
@@ -104,9 +114,11 @@ body {
   margin: 0;
   margin-top: 50px;
   padding: 10px;
+  color: white;
 }
 
 #c {
+  /* border: 1px solid white; */
   display: block;
   position: absolute;
   width: 500px;
@@ -114,12 +126,59 @@ body {
   left: 62%;
   top: -20%;
   margin: 0;
-margin-top: 50px;
+  margin-top: 50px;
   /* text-align: center; */
   padding: 10px;
-
+  color: white;
 }
+#d {
+  height: 25px;
+ width: 25px;
+ background-color: #bbb;
+ border-radius: 50%;
+ display: inline-block;
+}
+
 h2 {
   text-align: center;
+  font-family: 'Special Elite', cursive;
+}
+h3 {
+  text-align: center;
+  font-size: .9em;
+  line-height: 70px;
+  padding: 5px;
+  margin: 5px auto;
+  font-family: 'Special Elite', cursive;
 
+}
+h4 {
+  text-align: center;
+  font-size: .9em;
+  word-spacing: 5px;
+  font-family: 'Special Elite', cursive;
+}
+h5 {
+  text-align: center;
+  font-size: 1.1em;
+  padding: 5px auto;
+  margin: 5px auto;
+  line-height: 30px;
+  font-family: 'Special Elite', cursive;
+}
+p {
+  text-align: left;
+  font-size: 1.0em;
+  padding: 1px auto;
+  margin: 20px 20px;
+  text-indent: 15px;
+  /* font-family: 'Cabin Sketch', cursive; */
+}
+button {
+  /* position: fixed; */
+  position: absolute;
+  left: 50px;
+  padding: 5px auto;
+  margin: 5px auto;
+  top: 10px;
 }
