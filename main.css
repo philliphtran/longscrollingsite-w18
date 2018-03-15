@@ -24,7 +24,7 @@ font-family: 'Special Elite', cursive;
   /* url("img/imonaship.png") no-repeat 200px 120px, */
   /*url("img/backwave.png") repeat-x left 230px, */
   /* url("img/imonaship.png") no-repeat 150px 85px, */
-  /* url("img/geek.jpg") fixed center/cover no-repeat; */
+  url("img/bg.jpg") fixed center/cover no-repeat;
 
 
 
@@ -84,7 +84,7 @@ font-family: 'Special Elite', cursive;
   line-height: 100px;
   text-align: center;
   font-size: 2em;
-  color: black;
+  color: white;
   /* border: 1px solid white; */
 }
 #canvas {
@@ -131,7 +131,7 @@ font-family: 'Special Elite', cursive;
   margin-top: 50px;
   /* text-align: center; */
   padding: 10px;
-  color: white;
+  color: black;
 }
 #d {
   height: 25px;
@@ -170,7 +170,7 @@ h5 {
   margin: 5px auto;
   line-height: 30px;
   font-family: 'Special Elite', cursive;
-  color: black;
+
 }
 h6 {
   text-align: center;
@@ -179,15 +179,15 @@ h6 {
   padding: 5px;
   margin: 5px auto;
   font-family: 'Special Elite', cursive;
-
 }
+
 p {
   text-align: left;
   font-size: 1.0em;
   padding: 1px auto;
   margin: 20px 20px;
   text-indent: 15px;
-  color: black;
+
   /* font-family: 'Cabin Sketch', cursive; */
 }
 button {
