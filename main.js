@@ -11,11 +11,11 @@ var b = document.getElementById('b');
 var c = document.getElementById('c');
 var txt = "Phillip's Porfolio";
 // var d = document.getElementById('d');
-var myWindow;
+var myWindow = window.open("", "myWindow", "width=2560, height=1000");
 
-function openWin() {
-    myWindow = window.open("index.html", "", "width=1000, height=1000");
-}
+// function openWin() {
+//     myWindow = window.open("index.html", "", "width=500, height=1000");
+// }
 
 
 counter.innerHTML = "Do you Sin?";
